@@ -32,12 +32,8 @@ public class Step_Definitions extends base {
     Test_Case20 test_Case20;
     Test_Case21 test_Case21;
     Test_Case22 test_Case22;
-    Test_Case23 test_Case23;
     Test_Case24 test_Case24;
     Test_Case25 test_Case25;
-    Test_Case26 test_Case26;
-
-
 
     @Given("user launch the browser and Navigate to url {string}")
     public void userLaunchTheBrowserAndNavigateToUrl(String url) {
@@ -63,11 +59,8 @@ public class Step_Definitions extends base {
         test_Case20 = new Test_Case20(driver);
         test_Case21 = new Test_Case21(driver);
         test_Case22 = new Test_Case22(driver);
-        test_Case23 = new Test_Case23(driver);
         test_Case24 = new Test_Case24(driver);
         test_Case25 = new Test_Case25(driver);
-        test_Case26 = new Test_Case26(driver);
-
     }
     @And("user Verifies that home page is visible successfully")
     public void userVerifiesThatHomePageIsVisibleSuccessfully() {
